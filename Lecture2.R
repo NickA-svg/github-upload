@@ -1,0 +1,13 @@
+#Loading in datasets -------------------------------------------------------------------------------
+#list of avaliable datasets in base R:
+data()
+
+#Explore dataset:
+class(mtcars)
+dim(mtcars)
+names(mtcars)
+structure(mtcars)
+str(mtcars)
+head(mtcars)
+tail(mtcars)
+head(mtcars,10)
