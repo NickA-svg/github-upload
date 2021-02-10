@@ -63,3 +63,15 @@ stu.matrix
 stu.data <- c(stu.hrs,stu.marks)
 stu.matrix <- matrix(stu.data,nrow=10)
 stu.matrix
+
+
+
+#Data frame ----------------------------------------------------------------------------------------
+#can take all data types and a mixture of them - matrix can only take one type
+
+stu.name <- c(letters[1:10])
+
+stu.df <- data.frame(stu.name,stu.hrs,stu.marks)
+stu.df
+stu.df$stu.male <- TRUE
+stu.df
