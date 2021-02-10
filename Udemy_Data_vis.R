@@ -51,3 +51,15 @@ my.list[1]
 my.list[[2]]
 my.list[[1]][1]
 my.list[[2]][2]
+
+
+#Matrix   ------------------------------------------------------------------------------------------
+stu.hrs <- c(1:10)
+stu.marks <- c(51:60)
+
+stu.matrix <- matrix(stu.hrs)
+stu.matrix
+
+stu.data <- c(stu.hrs,stu.marks)
+stu.matrix <- matrix(stu.data,nrow=10)
+stu.matrix
