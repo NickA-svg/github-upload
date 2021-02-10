@@ -11,6 +11,7 @@ str(mtcars)
 head(mtcars)
 tail(mtcars)
 head(mtcars,10)
+summary(mtcars)
 
 
 #ggplot2 -------------------------------------------------------------------------------------------
