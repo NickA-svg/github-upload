@@ -1,5 +1,5 @@
 #Data Types ----------------------------------------------------------------------------------------
-#logical - true or false values
+#logical - true or false values (boolean)
 4 == 4 
 
 #integer - whole numbers 
@@ -21,3 +21,10 @@ f
 #Characters 
 e <- "Nick Aristidou"
 class(e)
+
+#Vectors -------------------------------------------------------------------------------------------
+#collection of similar items (data types)
+
+num.a <- c(1:10)
+num.a
+is.numeric(a)
