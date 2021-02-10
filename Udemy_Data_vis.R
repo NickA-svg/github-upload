@@ -28,3 +28,14 @@ class(e)
 num.a <- c(1:10)
 num.a
 is.numeric(a)
+
+#Factors -------------------------------------------------------------------------------------------
+airports <- c('DEL','CAL','NYC','DEL','CAL','DEL')
+summary(airports)
+barplot(summary(airports))
+#wont work as needs converting into factors
+
+airport.fact <- factor(airports)
+airport.fact
+summary(airport.fact)
+barplot(summary(airport.fact))
