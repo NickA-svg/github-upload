@@ -1,0 +1,17 @@
+cmd+option+i for new section
+ 
+```{r Single Continuous Variable}
+chickwts
+class(chickwts)
+chickwts["weight"]
+dist(mtcars)
+plot(chickwts)
+boxplot(chickwts)
+```
+
+```{r Single Discrete Variable}
+chickwts['feed']
+barplot(matrix(chickwts$feed))
+
+```
+
