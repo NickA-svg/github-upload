@@ -39,3 +39,15 @@ airport.fact <- factor(airports)
 airport.fact
 summary(airport.fact)
 barplot(summary(airport.fact))
+
+#List  ---------------------------------------------------------------------------------------------
+a <- c(1,4,6)
+b <- c('Red','Green')
+c <- c("welcome")
+
+my.list <- list(a,b,c)
+my.list
+my.list[1]
+my.list[[2]]
+my.list[[1]][1]
+my.list[[2]][2]
