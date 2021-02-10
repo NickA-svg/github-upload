@@ -11,3 +11,11 @@ str(mtcars)
 head(mtcars)
 tail(mtcars)
 head(mtcars,10)
+
+
+#ggplot2 -------------------------------------------------------------------------------------------
+data(package="ggplot2")
+library(ggplot2)
+ggplot2::diamonds
+
+
